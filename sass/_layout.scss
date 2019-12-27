@@ -1,0 +1,206 @@
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left {
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(/assets/images/background_image.png), var(--linear-gradient);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerblock {
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    .biglogo {
+        .motionlogo{
+            margin: 15px;
+            height: 80px;
+            width: 80px;
+        }
+    }
+
+    h1 {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    p {
+        opacity: 0.6;
+        text-align: center;
+        margin: 15px;
+        font-size: 15px;
+        width: 275px;
+        height: 48px;
+    }
+
+    .smalllogos {
+        display: flex;
+
+        .apple {
+            display: flex;
+            justify-content: center;
+            height: 35px;
+            width: 120px;
+            margin: 10px;
+            border: solid 2px #ffffff3a;
+            border-radius: 100px;
+        }
+
+        .google {
+            display: flex;
+            justify-content: center;
+            height: 35px;
+            width: 120px;
+            margin: 10px;
+            border: solid 2px #ffffff3a;
+            border-radius: 100px;
+        }
+
+    }
+
+}
+
+.bottomblock {
+    align-self: center;
+
+    .roundlogos {
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+        color: #6e91f6;
+        text-align: center;
+        opacity: 0.5;
+
+        .twitter {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            border-radius: 40px;
+            vertical-align: middle;
+            line-height: 40px;
+        }
+
+        .facebook {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            border-radius: 40px;
+            vertical-align: middle;
+            line-height: 40px;
+        }
+
+        .instagram {
+            height: 40px;
+            width: 40px;
+            background-color: white;
+            border-radius: 40px;
+            vertical-align: middle;
+            line-height: 40px;
+        }
+        
+    }
+
+    .copyright {
+        margin: 20px;
+        font-size: 12px;
+    }
+
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .signup {
+        margin: 20px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+        vertical-align: middle;
+        line-height: 30px;
+
+        p {
+            padding-right: 10px;
+        }
+
+        button {
+            background-color: white;
+            width: 100px;
+            height: 30px;
+            border-radius: 20px;
+            border: solid 1px #0000002c;
+        }
+
+    }
+
+    .credentials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+
+        .username {
+            margin: 10px;
+            font-size: 16px;
+
+            img {
+                margin-right: 10px;
+                margin-left: -10px;
+            }
+
+        }
+
+        .password {
+            margin: 10px;
+            font-size: 16px;
+
+            img {
+                margin-right: 10px;
+                margin-left: -10px;
+            }
+
+        }
+
+        .line {
+            width: 340px;
+            height: 2px;
+            opacity: 0.16;
+            background-color: black;
+        }
+
+    }
+
+    .enter {
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin: 100px;
+            font-size: 12px;
+            color: white;
+            width: 260px;
+            height: 60px;
+            border-radius: 30px;
+            border: none;
+            background-image: var(--linear-gradient);
+        }
+
+    }
+}
